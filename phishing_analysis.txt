@@ -1,0 +1,27 @@
+# Phishing Email Analysis
+
+1. **Sender's Email Address**  
+   Example: suspicious@micros0ft-support.com (spoofed domain)
+
+2. **Email Header Discrepancies**  
+   - Analyzed using: mxtoolbox.com or Google's header analyzer  
+   - Found mismatched IPs and unexpected 'Reply-To' address
+
+3. **Suspicious Links/Attachments**  
+   - Link text: https://secure-update.com  
+   - Real link: http://malicious-site.ru/steal-info.php
+
+4. **Urgency/Threatening Language**  
+   Example: “Your account will be suspended in 24 hours!”
+
+5. **Mismatched URLs**  
+   Hovered links don’t match displayed URLs.
+
+6. **Grammar/Spelling Errors**  
+   Example: “We have detect unusual login ativity.”
+
+7. **Summary of Traits**  
+   - Spoofed sender
+   - Urgent language
+   - Mismatched links
+   - Poor grammar
